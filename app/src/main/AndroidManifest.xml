@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collegefriend">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CM5"></activity>
+        <activity android:name=".CM6" />
+        <activity android:name=".CM4" />
+        <activity android:name=".CM3" />
+        <activity android:name=".CM2" />
+        <activity android:name=".CM1" />
+        <activity android:name=".Cryptography" />
+        <activity android:name=".CNM5Activity" />
+        <activity android:name=".CNM4Activity" />
+        <activity android:name=".CNM3Activity" />
+        <activity android:name=".CNM2Activity" />
+        <activity android:name=".CNM1Activity" />
+        <activity android:name=".ComputerNetworkActivity" />
+        <activity android:name=".Module1CompilerDesignActivity" />
+        <activity android:name=".Module2CompilerDesignActivity" />
+        <activity android:name=".Module3CompilerDesignActivity" />
+        <activity android:name=".Module4ComiplerDesign" />
+        <activity android:name=".ModuleFiveCompilerDesignActivity" />
+        <activity android:name=".CompilerDesignActivity" />
+        <activity android:name=".ExpectationActivity" />
+        <activity android:name=".Hypothesis" />
+        <activity android:name=".HypothesisActivity" />
+        <activity android:name=".LinearActivity" />
+        <activity android:name=".LinearClassificationActivity" />
+        <activity android:name=".LinnerClassificationActivity" />
+        <activity android:name=".StatisticalDecisionActivity" />
+        <activity android:name=".IntroductionActivity" />
+        <activity android:name=".MachineLearningActivity" />
+        <activity android:name=".SemesterSixActivity" />
+        <activity android:name=".SemestersixActivity" />
+        <activity android:name=".Semester6Activity" />
+        <activity android:name=".SplaceScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
